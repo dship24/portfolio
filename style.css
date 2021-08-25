@@ -4,17 +4,22 @@
 }
 
 .main {
-  width: auto;
+  width: 20em;
   background: black;
   margin: 0em;
   height: 100%;
 }
 
 .sidebar {
-  width: 3em;
+  width: 4em;
   background: yellow;
   margin: 0em;
   height: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 }
 
 .item {
