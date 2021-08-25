@@ -8,6 +8,7 @@
   background: black;
   margin: 0em;
   height: 1000px;
+  color: white;
 }
 
 .sidebar {
@@ -15,8 +16,6 @@
   background: yellow;
   margin: 0em;
   height: 1000px;
-}
-
 }
 
 .item {
