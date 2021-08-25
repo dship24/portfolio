@@ -4,13 +4,17 @@
 }
 
 .main {
-  width: 1500px;
+  width: auto;
   background: black;
+  margin: 0em;
+  height: 100%;
 }
 
 .sidebar {
-  width: 300px;
+  width: 250px;
   background: yellow;
+  margin: 0em;
+  height: 100%;
 }
 
 .item {
