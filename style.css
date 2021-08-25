@@ -4,15 +4,16 @@
 }
 
 .main {
-  width: 1000em;
+  width: 900em;
   background: black;
   margin: 0em;
   height: 1000px;
   color: white;
+  font-size: 3em;
 }
 
 .sidebar {
-  width: 100em;
+  width: 90em;
   background: yellow;
   margin: 0em;
   height: 1000px;
