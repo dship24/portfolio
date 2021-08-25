@@ -4,7 +4,7 @@
 }
 
 .main {
-  width: 100em;
+  width: 1000em;
   background: black;
   margin: 0em;
   height: 1000px;
@@ -12,7 +12,7 @@
 }
 
 .sidebar {
-  width: 10em;
+  width: 100em;
   background: yellow;
   margin: 0em;
   height: 1000px;
