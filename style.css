@@ -3,4 +3,18 @@
   flex-direction: row;
 }
 
-.
+.main {
+  width: 1500px;
+  background: black;
+}
+
+.sidebar {
+  width: 300px;
+  background: yellow;
+}
+
+.item {
+  font-size: 2em;
+  font-family: arial;
+  padding: 1.5em;
+}
