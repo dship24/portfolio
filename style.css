@@ -15,9 +15,6 @@
   background: yellow;
   margin: 0em;
   height: 1000px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
 }
 
 }
