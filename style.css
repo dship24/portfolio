@@ -4,14 +4,14 @@
 }
 
 .main {
-  width: 1500px;
+  width: 10em;
   background: black;
   margin: 0em;
   height: 1000px;
 }
 
 .sidebar {
-  width: 200px;
+  width: 5em;
   background: yellow;
   margin: 0em;
   height: 1000px;
