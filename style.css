@@ -1,4 +1,6 @@
-.sunset {
-  border-style: solid;
-  border-color: blue;
+.content {
+  display: flex;
+  flex-direction: row;
 }
+
+.
