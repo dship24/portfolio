@@ -1,26 +1,305 @@
-.content {
-  display: flex;
-  flex-direction: row;
-}
-
-.main {
-  width: 900em;
-  background: black;
-  margin: 0em;
-  height: 1000px;
-  color: white;
-  font-size: 5em;
-}
-
 .sidebar {
-  width: 70em;
-  background: yellow;
-  margin: 0em;
-  height: 1000px;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #6A040F;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
 }
 
-.item {
+.sidebar a {
+  padding: 1em 1em 1em 2em;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  font-family: Gill Sans;
+}
+
+.sidebar a:hover {
+  color: #FAA307;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #780000;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  position: fixed;
+  box-shadow: 0 0 1.5em white;
+  top: 4%;
+  left: 2%;
+  transform: translate( -10%, -10%);
+}
+
+.openbtn:hover {
+  background-color: #D00000;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+.name {
   font-size: 2em;
-  font-family: arial;
-  padding: 1.5em;
+  color: white;
+  text-align: center;
+  padding-top: 7em;
+  font-family: cursive;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered_name {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4.5em;
+    font-family: Gill Sans;
+    background: linear-gradient(#A4161A,#FAA307);
+    text-align: center;
+    padding: 0.2em;
+}
+
+.sunset {
+    width: 105.8%;
+    margin: -1.5em 0 0 -3em;
+}
+
+.parallax {
+    background-image: url("sunset.gif");
+    min-height: 55em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -2em;
+    width: 79.7em;
+}
+
+.info {
+    background: linear-gradient(#E85D04,#660708);
+    margin: 0 0 -1.5em -1.5em;
+    width: 79.2em;
+    height: 205em;
+}
+
+.about_me {
+    border-top-style: dotted;
+    border-top-color: black;
+    border-top-width: 0.2em;
+    border-bottom-style: dotted;
+    border-bottom-color: black;
+    border-bottom-width: 0.2em;
+    color: white;
+    width: 20em;
+    height: 1em;
+    text-align: center;
+    padding: .3em;
+    margin: 0 auto 0 auto;
+    font-size: 2.5em;
+    font-family: Gill Sans;
+}
+
+.blank {
+    height: 3em;
+}
+
+.box {
+    background: #F48C06;
+    padding: 0.01em;
+    margin: 4em;
+    box-shadow: 0 0 1.5em black;
+}
+
+._about_me_ {
+    background: #FAA307;
+    color: black;
+    padding: 1.3em;
+    margin: 4em;
+    text-align: center;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    box-shadow: 0 0 1.5em black;
+    font-family: Gill Sans;
+}
+
+.skills_h {
+    border-top-style: dotted;
+    border-top-color: black;
+    border-top-width: 0.2em;
+    border-bottom-style: dotted;
+    border-bottom-color: black;
+    border-bottom-width: 0.2em;
+    color: white;
+    width: 20em;
+    height: 1em;
+    text-align: center;
+    padding: .3em;
+    margin: 2em auto 0 auto;
+    font-size: 2.5em;
+    font-family: Gill Sans;
+}
+
+.skills_box {
+    background: #F48C06;
+    padding: 0.01em;
+    margin: 4em;
+    box-shadow: 0 0 1.5em black;
+    display: flex;
+    flex-direction: row;
+}
+
+.skills_box > div {
+    font-size: 3em;
+    color: black;
+    font-family: sans-serif;
+    width: 25%;
+    margin: 1em;
+    text-align: center;
+}
+
+@keyframes rainbow {
+  0%   {color: red;}
+  5%   {color: #E85D04;}
+  10%  {color: orange;}
+  15%  {color: yellowgreen;}
+  20%  {color: limegreen;}
+  25%  {color: forestgreen;}
+  30%  {color: green;}
+  35%  {color: seagreen;}
+  40%  {color: teal;}
+  45%  {color: aqua;}
+  50%  {color: skyblue;}
+  55%  {color: darkcyan;}
+  60%  {color: blue;}
+  65%  {color: blueviolet;}
+  70%  {color: purple;}
+  75%  {color: indigo;}
+  80%  {color: magenta;}
+  85%  {color: pink;}
+  90%  {color: palevioletred;}
+  95%  {color: lightcoral;}
+  100% {color: red;}
+}
+
+.skills_box > div:hover{
+    color: red;
+    animation-name: rainbow;
+    animation-duration: 8s;
+}
+
+.project_box {
+    width: 60em;
+    height: 40em;
+    margin: 5em auto 0 auto;
+    background: #F48C06;
+    box-shadow: 0 0 1.5em black;
+    display: flex;
+    flex-direction: row;
+}
+
+.project {
+    background: #FAA307;
+    width: 25em;
+    height: 34em;
+    margin: 3em 2.5em 3em 2.5em;
+    box-shadow: 0 0 1.5em black;
+    text-decoration: white;
+}
+
+.picture {
+    width: 23em;
+    height: 15em;
+    margin: 1em;
+}
+
+.project_name {
+    text-align: center;
+    font-size: 1.5em;
+    border-style: ridge;
+    border-color: black;
+    border-width: .2em;
+    margin: 0 1.5em 0 1.5em;
+    font-family: Gill Sans;
+    color: black;
+}
+
+.date_language {
+    font-family: Gill Sans;
+    text-align: center;
+    font-size: 0.8em;
+    color: gray;
+    padding: 0.5em;
+}
+
+.description {
+    font-family: Gill Sans;
+    font-size: 1em;
+    color: black;
+    text-align: center;
+    padding: 0.5em;
+    line-height: 1.5em;
+}
+
+.project:hover {
+    box-shadow: 0 0 3em red;
+}
+
+.icons {
+    background: #F48C06;
+    width: 65em;
+    height: 12em;
+    margin: 5em auto 3em auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    color: black;
+    font-size: 5.5em;
+    background: white;
+    box-shadow: 0 0 1em black;
+    margin: 1em;
+    padding: 0em .1em 0em .1em;
+}
+
+.icon_box {
+    margin-left: 2em;
+    width: 21.8em;
+    padding-top: 2em;
+}
+
+.icon:hover {
+    color: white;
+    background: black;
+    font-size: 6.5em;
+    box-shadow: 0 0 1em white;
+    cursor: pointer;
 }
