@@ -100,13 +100,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin: -2em;
-    width: 170em;
+    width: 140em;
 }
 
 .info {
     background: linear-gradient(#E85D04,#660708);
     margin: 0 0 -1.5em -1.5em;
-    width: 150em;
+    width: 140em;
     height: 205em;
 }
 
