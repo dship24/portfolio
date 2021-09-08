@@ -88,7 +88,7 @@
 }
 
 .sunset {
-    width: 100em;
+    width: 140em;
     margin: -1.5em 0 0 -3em;
 }
 
@@ -100,13 +100,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin: -2em;
-    width: 100em;
+    width: 140em;
 }
 
 .info {
     background: linear-gradient(#E85D04,#660708);
     margin: 0 0 -1.5em -1.5em;
-    width: 100em;
+    width: 140em;
     height: 205em;
 }
 
