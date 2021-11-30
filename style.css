@@ -54,7 +54,7 @@
 #main {
   transition: margin-left .5s;
   padding: 16px;
-  height: 250em;
+  height: 225em;
 }
 
 .name {
@@ -106,6 +106,7 @@
     margin: -1%;
     width: cover;
     padding: 0%;
+    height: 225em;
 }
 
 .about_me {
