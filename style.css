@@ -54,6 +54,7 @@
 #main {
   transition: margin-left .5s;
   padding: 16px;
+  height: 250em;
 }
 
 .name {
