@@ -214,9 +214,9 @@
 }
 
 .project_box {
-    width: 75em;
+    width: 60em;
     height: 40em;
-    margin: 3em auto 0 auto;
+    margin: 5em auto 0 auto;
     background: #F48C06;
     box-shadow: 0 0 1.5em black;
     display: flex;
