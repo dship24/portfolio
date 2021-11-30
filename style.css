@@ -106,7 +106,10 @@
     margin: -1%;
     width: cover;
     padding: 0%;
-    height: 228em;
+    height: 225em;
+}
+#context {
+  padding-bottom: 1em;
 }
 
 .about_me {
