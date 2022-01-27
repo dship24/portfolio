@@ -1,0 +1,384 @@
+.main {
+  background-color: rgb(102, 1, 1);
+  border-width: 12px;
+  border-style: ridge;
+  border-color: slategrey;
+}
+
+.parallax {
+  background-image: url("images/sunset.gif");
+  min-height: 967.5px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.about_me_h {
+  text-align: center;
+  color: slategrey;
+  margin-top: 50px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.name_box {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: slategrey;
+  box-shadow: 0 0 40px black;
+  border-radius: 25px;
+  background-color: rgb(102, 1, 1);
+  padding: 10px;
+  width: 30%;
+}
+
+.name {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.message {
+  font-size: 18px;
+}
+
+.arrow {
+  position: absolute;
+  color: white;
+  left: 49%;
+  top: 92%;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.arrow:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.about_me_div {
+  background-color: rgb(126, 3, 3);
+  width: 80%;
+  margin: 50px 0 0 10%;
+  box-shadow: 5px 5px 20px black;
+  padding: 25px 0 25px 0;
+}
+
+.about_me_text {
+  color: black;
+  font-weight: bold;
+  font-size: 23px;
+  margin-left: 10%;
+  text-align: center;
+  width: 80%;
+  text-shadow: 1px 1px 2px slategrey;
+}
+
+.skills_h {
+  text-align: center;
+  color: slategrey;
+  margin-top: 75px;
+}
+
+.skills_box {
+  width: 80%;
+  background-color: rgb(126, 3, 3);
+  box-shadow: 5px 5px 20px black;
+  margin: 50px 0 0 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills_box p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  margin: 40px;
+  width: 200px;
+  height: 100px;
+  text-shadow: 1px 1px 2px slategrey;
+}
+
+.skills_box p span {
+  margin-right: 20px;
+  font-size: 75px;
+}
+
+.skill-image {
+  width: 90px;
+  margin-right: 10px;
+  box-shadow: 1px 1px 2px slategrey;
+  border-radius: 60px 60px 60px 60px;
+}
+
+.projects_h {
+  text-align: center;
+  margin-top: 50px;
+  color: slategrey;
+}
+
+.left_btn {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: white;
+  font-size: 40px;
+  float: left;
+  margin-left: 10px;
+}
+
+.right_btn {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: white;
+  font-size: 40px;
+  float: right;
+  margin-right: 10px;
+}
+
+.slideshow {
+  width: 80%;
+  height: 500px;
+  margin: 50px 0 50px 10%;
+  position: relative;
+}
+
+.mySlides {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.slideshow_btns {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.project_name {
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  font-size: 200%;
+  text-align: center;
+  margin: 15px 0 15px 0;
+}
+
+.left_btn:hover {
+  cursor: pointer;
+  color: slategrey;
+}
+
+.right_btn:hover {
+  cursor: pointer;
+  color: slategrey;
+}
+
+.project_desc {
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  text-align: center;
+  font-size: 100%;
+  width: 80%;
+  margin-left: 10%;
+  height: 70px;
+}
+
+.description {
+  display: none;
+}
+
+.source_code_btn {
+  color: rgb(102, 1, 1);
+  background-color: white;
+  text-decoration: none;
+  padding: 3px;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 42%;
+  width: 16%;
+  display: block;
+  box-shadow: 5px 5px 10px black;
+}
+
+.source_code_btn:hover {
+  background-color: black;
+}
+
+.link {
+  display: none;
+}
+
+.open_btn {
+  position: fixed;
+  background-color: slategrey;
+  color: rgb(102, 1, 1);
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 2;
+  padding: 3px 10px 5px 10px;
+  border: none;
+  text-align: center;
+  justify-content: center;
+  top: 2.5%;
+  transition: 0.5s;
+  left: 2.5%;
+}
+
+.open_btn:hover {
+  background-color: black;
+  color: rgb(126, 3, 3);
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  background-color: rgb(102, 1, 1);
+  overflow-x: hidden;
+  transition: 0.5s;
+  border-right-style: solid;
+  border-right-color: slategrey;
+  border-right-width: 0px;
+}
+
+.close_btn {
+  color: white;
+  margin-left: 85%;
+  font-size: 25px;
+}
+
+.close_btn:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.main_stuff {
+  position: relative;
+  z-index: 1;
+}
+
+.sidebar_link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 150%;
+  display: block;
+  margin: 20px 0 0 10px;
+  text-shadow: 1px 1px 2px slategrey;
+}
+
+.sidebar_link:hover {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.contacts_box {
+  width: 100%;
+  height: 75px;
+  background-color: rgb(126, 3, 3);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.icon {
+  font-size: 35px;
+  color: white;
+  background-color: black;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  padding-top: 5px;
+  display: block;
+}
+
+.icon_box {
+  width: 50px;
+  text-align: center;
+  height: 50px;
+  margin: 7% 2.5% 0 2.5%;
+}
+
+.icon:hover {
+  color: black;
+  background-color: white;
+}
+
+.my_name {
+  font-family: cursive;
+  position: absolute;
+  bottom: 60px;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  text-shadow: 1px 1px 2px slategrey;
+}
+
+@media only screen and (max-width: 700px) {
+  .about_me_h {
+    font-size: 125%;
+  }
+  .skills_h {
+    font-size: 125%;
+  }
+  .projects_h {
+    font-size: 125%;
+  }
+  .project_name {
+    font-size: 125%;
+  }
+  .project_desc {
+    font-size: 80%;
+  }
+  .source_code_btn {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10%;
+  }
+  .name_box {
+    width: 35%;
+  }
+  .sidebar_link {
+    font-size: 100%;
+  }
+  .my_name {
+    font-size: 150%;
+    bottom: 200px;
+  }
+  .icon {
+    font-size: 20px;
+    width: 40px;
+    height: 30px;
+    margin-left: 55%;
+  }
+  .contacts_box {
+    flex-direction: column;
+    height: 200px;
+  }
+  .close_btn {
+    margin-left: 80%;
+  }
+}
