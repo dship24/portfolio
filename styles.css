@@ -392,14 +392,15 @@ html {
   }
   
   .left_btn {
-    margin-left: 0;
+    left: 0px;
   }
 
   .right_btn {
-    margin-right: 0;
+    right: 0px;
   }
   
   .source_code_btn {
-    width: 10%;
+    width: 30%;
+    height: 10%;
   }
 }
