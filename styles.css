@@ -363,16 +363,17 @@ html {
   }
   .sidebar_link {
     font-size: 100%;
+    margin-left: 5px;
   }
   .my_name {
-    font-size: 150%;
+    font-size: 125%;
     bottom: 200px;
   }
   .icon {
     font-size: 20px;
     width: 40px;
     height: 30px;
-    margin-left: 55%;
+    margin-left: 40%;
   }
   .contacts_box {
     flex-direction: column;
@@ -380,5 +381,13 @@ html {
   }
   .close_btn {
     margin-left: 80%;
+  }
+
+  .arrow{
+    left: 47%;
+  }
+
+  .parallax{
+    min-height: 733px;
   }
 }
