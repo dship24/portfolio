@@ -373,7 +373,7 @@ html {
     font-size: 20px;
     width: 40px;
     height: 30px;
-    margin-left: 40%;
+    margin-left: 35%;
   }
   .contacts_box {
     flex-direction: column;
@@ -389,5 +389,17 @@ html {
 
   .parallax{
     min-height: 733px;
+  }
+  
+  .left_btn {
+    margin-left: 0;
+  }
+
+  .right_btn {
+    margin-right: 0;
+  }
+  
+  .source_code_btn {
+    width: 10%;
   }
 }
