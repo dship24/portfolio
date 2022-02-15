@@ -80,12 +80,10 @@ html {
 
 .about_me_text {
   color: black;
-  font-weight: bold;
   font-size: 23px;
   margin-left: 10%;
   text-align: center;
   width: 80%;
-  text-shadow: 1px 1px 2px slategrey;
 }
 
 .skills_h {
