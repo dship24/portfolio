@@ -3786,10 +3786,6 @@ input, select, textarea {
 
 
 .skills_box {
-	width: 80%;
-	background-color: rgb(126, 3, 3);
-	box-shadow: 5px 5px 20px black;
-	margin: 50px 0 0 10%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -3804,7 +3800,7 @@ input, select, textarea {
 	margin: 40px;
 	width: 200px;
 	height: 100px;
-	text-shadow: 1px 1px 2px slategrey;
+	color: #636363;
   }
   
   .skills_box p span {
@@ -3815,6 +3811,5 @@ input, select, textarea {
   .skill-image {
 	width: 90px;
 	margin-right: 10px;
-	box-shadow: 1px 1px 2px slategrey;
-	border-radius: 60px 60px 60px 60px;
+	color: #636363;
   }
