@@ -3116,15 +3116,15 @@ input, select, textarea {
 				transition-delay: 0s;
 				display: block;
 				margin: 0 0 1.5em 0;
+				border-color:rgba(99, 99, 99, 0.25);
+				border-width: 5%;
+				border-style: solid;
 			}
 
 				#header.alt .logo img {
 					display: block;
 					margin: 0 auto;
 					max-width: 10%;
-					border-color:rgba(99, 99, 99, 0.25);
-					border-width: 5%;
-					border-style: solid;
 				}
 
 		@media screen and (max-width: 1280px) {
