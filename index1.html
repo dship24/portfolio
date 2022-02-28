@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dylan Shipton's Portfolio</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="Sidebar" class="sidebar">
+      <a class="close_btn" onclick="closeNav()">x</a>
+      <br>
+      <a class="sidebar_link" href="#main_stuff">Home</a>
+      <br>
+      <a class="sidebar_link" href="#about_me">About Me</a>
+      <br>
+      <a class="sidebar_link" href="#skills">Skills</a>
+      <br>
+      <a class="sidebar_link" href="#projects">Projects</a>
+      <h1 class="my_name">Dylan Shipton</h1>
+      <div class="contacts_box">
+        <div class="icon_box">
+          <a class="icon" id="email" href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=djship24@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+          </div>
+      <div class="icon_box">
+          <a class="icon" href="https://linkedin.com/in/dylan-shipton" target="_blank"> <i class="fa fa-linkedin"></i></a>
+         </div>
+      <div class="icon_box">
+          <a class="icon" id="github" href="https://github.com/dship24" target="_blank"><i class="fa fa-github"></i></a>
+          </div>
+      </div>
+    </div>
+    <div class="main_stuff" id="main_stuff">
+      <button class="open_btn" id="open_btn" onclick="openNav()">☰</button>
+      <div class="container">
+        <div class="parallax"></div>
+        <div class="name_box">
+          <div class="name">Dylan Shipton</div>
+          <div class="message">Welcome To My Portfolio</div>
+        </div>
+        <div class="arrow"><a class="arrow" href="#main">&#8964</a></div>
+      </div>
+      <div class="main" id="main">
+          <h1 class="about_me_h" id="about_me">--------------- About Me ---------------</h1>
+          <div class="about_me_div">
+            <p class="about_me_text">I am currently a student at Base Camp Coding Academy, where I am training to become a full-stack developer. My aspirations to become a software developer began in my senior year of high school.</p>
+            <p class="about_me_text">I enjoy software development because it allows me to be creative and bring new ideas to life. I am particularly interested in back-end programming with languages like Python and Java; however, I am open to learning new skills to expand my technical "arsenal".</p>
+            <p class="about_me_text">Software development gives me a sense of accomplishment, knowing that I have turned my ideas into projects. It also gives me freedom, being able to create anything at the touch of a button.</p>
+          </div>
+          <h1 class="skills_h" id="skills">------------------ Skills ------------------</h1>
+          <div class="skills_box">
+            <p>
+              <span>
+                <i class="fab fa-python"></i>
+              </span>
+                Python
+            </p>
+            <p>
+              <span>
+                <i class="fab fa-java"></i>
+              </span>
+                Java
+            </p>
+            <p>
+              <span>
+                <img class="skill-image" src="images/django.png" alt="">
+              </span>
+              Django
+            </p>
+            <p>
+              <span>
+                <i class="fas fa-leaf"></i>
+              </span>
+              Spring
+            </p>
+            <p>
+              <span>
+                <i class="fab fa-html5"></i>
+              </span>
+              HTML
+            </p>
+            <p>
+              <span>
+                <i class="fab fa-css3-alt"></i>
+              </span>
+              CSS
+            </p>
+            <p>
+              <span>
+                <i class="fab fa-js-square"></i>
+              </span>
+              JavaScript
+            </p>
+            <p>
+              <span>
+                <i class="fas fa-database"></i>
+              </span>
+              SQL
+            </p>
+          </div>
+          <h1 class="projects_h" id="projects">----------------- Projects -----------------</h1>
+          <div class="slideshow">
+            <img class="mySlides" id="Everest Game Center" src="images/pacman.png"/>
+            <img class="mySlides" id="Wedge" src="images/pizza.jpeg" alt="" />
+            <img class="mySlides" id="Ship-a-ton!" src="images/shopping.jpeg" alt="" />
+            <img class="mySlides" id="Mock Pokedex" src="images/pokemon.jpeg" alt="" />
+            <img class="mySlides" id="Ultimum Bellator" src="images/gladiator.jpeg" alt="" />
+            <img class="mySlides" id="Into The Thick of It" src="images/jungle.jpg" alt="" />
+            <img class="mySlides" id="Wizarding Duel Simulation" src="images/harry_potter2.jpg" alt="" />
+            <img class="mySlides" id="Pokemovement" src="images/sad_pikachu.jpg" alt="" />
+            <p class="description">A video game center I created with a partner. It is inspired by other game collections like Namcomuseum and Cool Math Games. It contains classic games like Pac-Man, Snake, and Flappy Bird.</p>
+            <p class="description">A version of the Hometown Pizza app - Slice. It has nearly all of the same features as the online-ordering app. This project was to help me understand java and postgresql.</p>
+            <p class="description">This is an e-commerce site I created with Django. There are two roles: admins and customers. Admins can moderate all users, items, and orders. Customers can place and keep track of orders.</p>
+            <p class="description">A recreation of the famouse Pokedex from the Pokemon series. Currently contains info from Gen 1 & 2 pokemon. Users can also create their own pokemon.</p>
+            <p class="description">This is a character creation and combat simulator program using Python. I created this with a partner to expand our knowledge on working with files. Users can also "save" and "load" past games.</p>
+            <p class="description">An rpg game I built with a partner using Python. My first unit project at Base Camp. This game contains NPCs, a map, battles, a boss and much more.</p>
+            <p class="description">One of the first Python programs I was proud of. I created this simulator in the beginning months of my time at Base Camp.</p>
+            <p class="description">A static website I created at Base Camp to help understand HTML and CSS.</p>
+            <p class="link">https://github.com/LoganColey/EverestGameCenter</p>
+            <p class="link">https://github.com/dship24/Wedge</p>
+            <p class="link">https://github.com/dship24/Unit5project</p>
+            <p class="link">https://github.com/ryleechisholm/Unit-4-Group</p>
+            <p class="link">https://replit.com/@FlapperFlounder/Unit-2-proj-1#main.py</p>
+            <p class="link">https://replit.com/@dship24/Into-The-Thick-Of-It#Undertale_OST_043_-_Temmie_Village.mp3</p>
+            <p class="link">https://replit.com/@dship24/Turn-Based#main.py</p>
+            <p class="link">https://github.com/dship24/dship24.github.io</p>
+            <div class="slideshow_btns">
+              <h1 class="project_name" id="project_name"></h1>
+              <button class="left_btn" onclick="plusDivs(-1)">&#x3c;</button>
+              <button class="right_btn" onclick="plusDivs(1)">&#x3e;</button>
+              <p class="project_desc" id="project_desc"></p>
+                <a class="source_code_btn" id="source_code_btn" href="" target="_blank">Source Code</a>
+              </div>
+          </div>
+      </div>
+      </div>
+    <script>
+    var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs((slideIndex += n));
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var d = document.getElementsByClassName("description");
+  var l = document.getElementsByClassName("link");
+  if (n > x.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = x.length;
+  }
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex - 1].style.display = "block";
+  var project = document.getElementById("project_name");
+  var description = document.getElementById("project_desc");
+  var source_code = document.getElementById("source_code_btn");
+  project.innerText = x[slideIndex - 1].id;
+  description.innerText = d[slideIndex - 1].innerText;
+  source_code.setAttribute("href", l[slideIndex - 1].innerText);
+}
+
+function openNav() {
+  document.getElementById("Sidebar").style.width = "20%";
+  document.getElementById("Sidebar").style.borderWidth = "5px";
+}
+
+function closeNav() {
+  document.getElementById("Sidebar").style.width = "0";
+  document.getElementById("Sidebar").style.borderWidth = "0";
+}</script>
+  </body>
+</html>
