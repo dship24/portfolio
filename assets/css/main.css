@@ -3804,12 +3804,12 @@ input, select, textarea {
   }
   
   .skills_box p span {
-	margin-right: 20px;
-	font-size: 75px;
+		color: black;
+		margin-right: 20px;
+		font-size: 75px;
   }
   
   .skill-image {
 	width: 90px;
-	margin-right: 10px;
-	color: #636363;
+	margin-top: 35px;
   }
