@@ -3783,3 +3783,38 @@ input, select, textarea {
 			}
 
 		}
+
+
+.skills_box {
+	width: 80%;
+	background-color: rgb(126, 3, 3);
+	box-shadow: 5px 5px 20px black;
+	margin: 50px 0 0 10%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+  
+  .skills_box p {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-size: 35px;
+	margin: 40px;
+	width: 200px;
+	height: 100px;
+	text-shadow: 1px 1px 2px slategrey;
+  }
+  
+  .skills_box p span {
+	margin-right: 20px;
+	font-size: 75px;
+  }
+  
+  .skill-image {
+	width: 90px;
+	margin-right: 10px;
+	box-shadow: 1px 1px 2px slategrey;
+	border-radius: 60px 60px 60px 60px;
+  }
