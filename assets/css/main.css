@@ -3813,3 +3813,7 @@ input, select, textarea {
 	width: 90px;
 	margin-top: 35px;
   }
+
+  .primary {
+	  background-color: #F71735;
+  }
