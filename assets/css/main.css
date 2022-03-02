@@ -3817,6 +3817,7 @@ input, select, textarea {
   ul.view_resume {
 	  display: block;
 	  justify-content: center;
+	  margin: 2.25em 0 2.25em 0;
   }
 
   ul.feature-icons li {
