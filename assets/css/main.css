@@ -3813,3 +3813,22 @@ input, select, textarea {
 	width: 90px;
 	margin-top: 35px;
   }
+
+  .ul.view_resume {
+	  display: block;
+	  justify-content: center;
+	  margin: 0 0 2.25em 0;
+  }
+
+  ul.feature-icons li {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 0 1.6875em 0;
+	position: relative;
+    vertical-align: top;
+    width: 48%;
+  }
+
+  ul.feature-icons {
+    padding-left: 0;
+}
