@@ -3824,6 +3824,10 @@ input, select, textarea {
 	padding: 0;
   }
 
+#resume_button:hover {
+	background-color: #eb2d2d;
+}
+
   ul.feature-icons {
     padding-left: 0;
 	display: block;
