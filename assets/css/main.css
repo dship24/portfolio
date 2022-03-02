@@ -3825,7 +3825,7 @@ input, select, textarea {
   }
 
 #resume_button:hover {
-	background-color: #eb2d2d;
+	background-color: #eb2d2d !important;
 }
 
   ul.feature-icons {
