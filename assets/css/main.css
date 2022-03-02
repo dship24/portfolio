@@ -3817,7 +3817,7 @@ input, select, textarea {
   .ul.view_resume {
 	  display: block;
 	  justify-content: center;
-	  margin: 0 0 2.25em 0;
+	  margin: 2.25em 0 2.25em 0;
   }
 
   ul.feature-icons li {
@@ -3831,8 +3831,4 @@ input, select, textarea {
 
   ul.feature-icons {
     padding-left: 0;
-}
-
-.resume{
-	margin-bottom: 2em;
 }
