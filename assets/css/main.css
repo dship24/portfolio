@@ -3814,10 +3814,9 @@ input, select, textarea {
 	margin-top: 35px;
   }
 
-  .ul.view_resume {
+  ul.view_resume {
 	  display: block;
 	  justify-content: center;
-	  margin: 2.25em 0 2.25em 0;
   }
 
   ul.feature-icons li {
