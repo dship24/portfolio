@@ -3831,7 +3831,7 @@ input, select, textarea {
 }
 
 #resume_button{
-	background-color: #f25858;
+	background-color: #f25858 !important;
 }
 
 @media screen and (max-width: 736px) {
