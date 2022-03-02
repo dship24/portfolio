@@ -3835,3 +3835,10 @@ input, select, textarea {
 		display: none;
 	}
 }
+
+@media screen and (max-width: 480px) {
+	ul.feature-icons li {
+		display: block;
+		width: 100%;
+	}
+}
