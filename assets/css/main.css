@@ -3830,6 +3830,10 @@ input, select, textarea {
 	margin: 2.25em 0 2.25em 0;
 }
 
+ul.feature-icons li a{
+	background-color: maroon;
+}
+
 @media screen and (max-width: 736px) {
 	.resume {
 		display: none;
