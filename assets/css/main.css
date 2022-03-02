@@ -3832,3 +3832,7 @@ input, select, textarea {
   ul.feature-icons {
     padding-left: 0;
 }
+
+.resume{
+	margin-bottom: 2em;
+}
