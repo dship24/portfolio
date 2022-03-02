@@ -3829,3 +3829,9 @@ input, select, textarea {
 	justify-content: center;
 	margin: 2.25em 0 2.25em 0;
 }
+
+@media screen and (max-width: 736px) {
+	.resume {
+		display: none;
+	}
+}
