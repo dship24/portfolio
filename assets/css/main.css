@@ -3821,6 +3821,7 @@ input, select, textarea {
 	position: relative;
     vertical-align: top;
     width: 48%;
+	background-color: #f25858;
   }
 
   ul.feature-icons {
@@ -3828,10 +3829,6 @@ input, select, textarea {
 	display: block;
 	justify-content: center;
 	margin: 2.25em 0 2.25em 0;
-}
-
-ul.feature-icons li .button.primary{
-	background-color: #f25858;
 }
 
 @media screen and (max-width: 736px) {
