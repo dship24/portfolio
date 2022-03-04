@@ -3851,3 +3851,35 @@ input, select, textarea {
 		width: 100%;
 	}
 }
+
+.projects_box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.project_card {
+	width: 300px;
+	height: 475px;
+	background-color: #ebe9e9;
+}
+
+.project_pic {
+	object-fit: cover;
+}
+
+.project_title {
+	font-size: 35px;
+	color: black;
+	margin-bottom: 5px;
+}
+
+.project_description {
+	font-size: 16px;
+	padding: 0 8px 0 8px;
+	margin-bottom: 0;
+}
+
+.project_src_code {
+	background-color: #c2ced9;
+}
