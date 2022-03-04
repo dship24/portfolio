@@ -3867,6 +3867,7 @@ input, select, textarea {
 
 .project_pic {
 	object-fit: cover;
+	width: 100%
 }
 
 .project_title {
