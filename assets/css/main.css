@@ -3860,7 +3860,8 @@ input, select, textarea {
 
 .project_card {
 	width: 300px;
-	height: 475px;
+	height: 425px;
+	margin: 20px;
 	background-color: #ebe9e9;
 }
 
