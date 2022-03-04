@@ -3881,12 +3881,6 @@ input, select, textarea {
 	margin-bottom: 0;
 }
 
-.project_src_code {
-	background-color: #c2ced9;
-	bottom: 10px;
-}
-
-.project_deploy {
-	background-color: #c2ced9;
+.project_buttons {
 	bottom: 10px;
 }
