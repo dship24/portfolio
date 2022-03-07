@@ -3887,3 +3887,11 @@ input, select, textarea {
 .project_buttons {
 	bottom: 10px;
 }
+
+.project_src_code a{
+	text-decoration: none;
+}
+
+.project_deploy a{
+	text-decoration: none;
+}
