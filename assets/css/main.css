@@ -3813,6 +3813,11 @@ input, select, textarea {
 	margin-top: 35px;
   }
 
+.resume {
+    width: 40%;
+    height: 50%;
+}
+
   ul.feature-icons li {
     text-decoration: none;
     display: inline-block;
