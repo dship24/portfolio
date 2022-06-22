@@ -3891,19 +3891,3 @@ input, select, textarea {
 .project_buttons {
 	bottom: 10px;
 }
-
-#document html body{
-	margin: 0;
-	border-left: solid 10pt rgb(207, 207, 207);
-	border-top: solid 10pt rgb(207, 207, 207);
-	border-bottom: solid 10pt rgb(207, 207, 207);
-}
-
-.c33 {
-	padding: 10pt; !important
-	max-width: 410; !important
-}
-
-.c27 span{
-	width: 540px; !important	
-}
