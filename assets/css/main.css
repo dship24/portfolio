@@ -3814,9 +3814,8 @@ input, select, textarea {
   }
 
 .resume {
-    width: 60%;
-    height: 80%;
-    margin: 50px 20%;
+    margin: 0 auto;
+    display: flex;
 }
 
   ul.feature-icons li {
